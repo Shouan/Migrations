@@ -1,0 +1,5 @@
+class AddColourToCars < ActiveRecord::Migration
+  def change
+    add_column :cars, :colour, :string
+  end
+end
